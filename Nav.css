@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  nav {
+    font-weight: 400;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:black;
+    padding: 100px;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+   
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color :yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  section {
+    padding: 60px 20px;
+  }
